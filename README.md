@@ -2,8 +2,9 @@
 Pipeline automatizada de análise de pangenoma de MAGs e metagenomas processados, montados e anotados pelo workflow Sabiá, LNCC
 
 WORKFLOW
+
 ./GH_pipeline.sh -h
-######################################################################
+###############################################
 Run GET_HOMOLOGUES pipeline.
 Se estiver instalado via Docker, ativar a imagem primeiro.
 
@@ -14,10 +15,10 @@ depende do banco de dados do Sabiá.
 -p Prefixo para identificar os outputs. Ex: 'Pseudomonas_ETDI_bin8'
 -h print this help
 Ex: ./GH_pipeline.sh -d desulfo_refs3 -r ETDI_bin60.faa -p Desulfo_ETDI_bin60
-######################################################################
+###############################################
 
 ./GH_parse_annotation.sh -h
-######################################################################
+###############################################
 PARSE GET_HOMOLOGUES RESULTS TO SABIA ANNOTATIONS
 copiar todo o conteudo da pasta 'GH_scripts' antes de rodar.
 
@@ -27,7 +28,7 @@ Usage: ./GH_parse_annotation.sh [-f cluster list] [-p prefix]
 -p Prefixo para identificar os outputs. Ex: 'Pseudomonas_ETDI_bin8'
 -h print this help
 Ex: ./GH_parse_annotation.sh -c core -d desulfo_refs3 -p Desulfo_ETDI_bin60
-######################################################################
+###############################################
 
 DESCRIÇÃO DO WORKFLOW:
 1. copiar a pasta GH_scripts para o seu work directory
