@@ -1,11 +1,11 @@
-# Piriquito
-Pipeline automatizada de análise de pangenoma de MAGs e metagenomas processados, montados e anotados pelo workflow Sabiá, LNCC
+# Piriquito  
+Pipeline automatizada de análise de pangenoma de MAGs e metagenomas processados, montados e anotados pelo workflow Sabiá, LNCC  
 
-WORKFLOW
+WORKFLOW  
 
-./GH_pipeline.sh -h
-###############################################
-Run GET_HOMOLOGUES pipeline.
+./GH_pipeline.sh -h  
+###############################################  
+Run GET_HOMOLOGUES pipeline.  
 Se estiver instalado via Docker, ativar a imagem primeiro.
 
 Usage: ./GH_pipeline.sh [-d directory] [-r reference genome] [-p prefix]
